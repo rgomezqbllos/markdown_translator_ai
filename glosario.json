@@ -12,30 +12,965 @@
   },
   "business_context": {
     "es": {
-      "expedición": {"en": "trip", "pt-br": "viagem", "pt-pt": "viagem", "fr": "voyage"},
-      "cuadrante": {"en": "roster", "pt-br": "escala", "pt-pt": "escala", "fr": "roulement"},
-      "relevo": {"en": "relief", "pt-br": "rendição", "pt-pt": "rendição", "fr": "relève"},
-      "itinerario": {"en": "itinerary", "pt-br": "itinerário", "pt-pt": "itinerário", "fr": "itinéraire"},
-      "línea": {"en": "route", "pt-br": "linha", "pt-pt": "linha", "fr": "ligne"},
-      "Depósito": {"en": "Depot", "pt-br": "Depósito", "pt-pt": "Depósito", "fr": "Depôt"},
-      "planificador": {"en": "planner", "pt-br": "planejador", "pt-pt": "planeador"},
-      "planificación": {"en": "planning", "pt-br": "planejamento", "pt-pt": "planeamento"},
-      "flujo": {"en": "flow", "pt-br": "fluxo", "pt-pt": "fluxo"},
-      "coherente": {"en": "coherent", "pt-br": "coerente", "pt-pt": "coerente"},
-      "equipo": {"en": "team", "pt-br": "equipe", "pt-pt": "equipa"},
-      "equipos": {"en": "teams", "pt-br": "equipes", "pt-pt": "equipas"}
+      "expedición": {
+        "en": "trip",
+        "pt-br": "viagem",
+        "pt-pt": "viagem",
+        "fr": "voyage",
+        "de": "trip",
+        "it": "trip",
+        "ar": "trip"
+      },
+      "cuadrante": {
+        "en": "roster",
+        "pt-br": "escala",
+        "pt-pt": "escala",
+        "fr": "roulement",
+        "de": "roster",
+        "it": "roster",
+        "ar": "roster"
+      },
+      "relevo": {
+        "en": "relief",
+        "pt-br": "rendição",
+        "pt-pt": "rendição",
+        "fr": "relève",
+        "de": "relief",
+        "it": "relief",
+        "ar": "relief"
+      },
+      "itinerario": {
+        "en": "itinerary",
+        "pt-br": "itinerário",
+        "pt-pt": "itinerário",
+        "fr": "itinéraire",
+        "de": "itinerary",
+        "it": "itinerary",
+        "ar": "itinerary"
+      },
+      "línea": {
+        "en": "route",
+        "pt-br": "linha",
+        "pt-pt": "linha",
+        "fr": "ligne",
+        "de": "route",
+        "it": "route",
+        "ar": "route"
+      },
+      "Depósito": {
+        "en": "Depot",
+        "pt-br": "Depósito",
+        "pt-pt": "Depósito",
+        "fr": "Depôt",
+        "de": "Depot",
+        "it": "Depot",
+        "ar": "Depot"
+      },
+      "planificador": {
+        "en": "planner",
+        "pt-br": "planejador",
+        "pt-pt": "planeador",
+        "fr": "planner",
+        "de": "planner",
+        "it": "planner",
+        "ar": "planner"
+      },
+      "planificación": {
+        "en": "planning",
+        "pt-br": "planejamento",
+        "pt-pt": "planeamento",
+        "fr": "planning",
+        "de": "planning",
+        "it": "planning",
+        "ar": "planning"
+      },
+      "flujo": {
+        "en": "flow",
+        "pt-br": "fluxo",
+        "pt-pt": "fluxo",
+        "fr": "flow",
+        "de": "flow",
+        "it": "flow",
+        "ar": "flow"
+      },
+      "coherente": {
+        "en": "coherent",
+        "pt-br": "coerente",
+        "pt-pt": "coerente",
+        "fr": "coherent",
+        "de": "coherent",
+        "it": "coherent",
+        "ar": "coherent"
+      },
+      "equipo": {
+        "en": "team",
+        "pt-br": "equipe",
+        "pt-pt": "equipa",
+        "fr": "team",
+        "de": "team",
+        "it": "team",
+        "ar": "team"
+      },
+      "equipos": {
+        "en": "teams",
+        "pt-br": "equipes",
+        "pt-pt": "equipas",
+        "fr": "teams",
+        "de": "teams",
+        "it": "teams",
+        "ar": "teams"
+      },
+      "Flota": {
+        "en": "fleet",
+        "pt-br": "frota",
+        "pt-pt": "frota",
+        "fr": "flotte",
+        "de": "fleet",
+        "it": "fleet",
+        "ar": "fleet"
+      }
     },
     "en": {
-      "trip": {"es": "expedición", "pt-br": "viagem", "pt-pt": "viagem", "fr": "voyage"},
-      "roster": {"es": "cuadrante", "pt-br": "escala", "pt-pt": "escala", "fr": "roulement"},
-      "planner": {"es": "planificador", "pt-br": "planejador", "pt-pt": "planeador"},
-      "planning": {"es": "planificación", "pt-br": "planejamento", "pt-pt": "planeamento"}
+      "trip": {
+        "es": "expedición",
+        "pt-br": "viagem",
+        "pt-pt": "viagem",
+        "fr": "voyage",
+        "de": "trip",
+        "it": "trip",
+        "ar": "trip"
+      },
+      "roster": {
+        "es": "cuadrante",
+        "pt-br": "escala",
+        "pt-pt": "escala",
+        "fr": "roulement",
+        "de": "roster",
+        "it": "roster",
+        "ar": "roster"
+      },
+      "relief": {
+        "es": "relevo",
+        "pt-br": "rendição",
+        "pt-pt": "rendição",
+        "fr": "relève",
+        "de": "relief",
+        "it": "relief",
+        "ar": "relief"
+      },
+      "itinerary": {
+        "es": "itinerario",
+        "pt-br": "itinerário",
+        "pt-pt": "itinerário",
+        "fr": "itinéraire",
+        "de": "itinerary",
+        "it": "itinerary",
+        "ar": "itinerary"
+      },
+      "route": {
+        "es": "línea",
+        "pt-br": "linha",
+        "pt-pt": "linha",
+        "fr": "ligne",
+        "de": "route",
+        "it": "route",
+        "ar": "route"
+      },
+      "Depot": {
+        "es": "Depósito",
+        "pt-br": "Depósito",
+        "pt-pt": "Depósito",
+        "fr": "Depôt",
+        "de": "Depot",
+        "it": "Depot",
+        "ar": "Depot"
+      },
+      "planner": {
+        "es": "planificador",
+        "pt-br": "planejador",
+        "pt-pt": "planeador",
+        "fr": "planner",
+        "de": "planner",
+        "it": "planner",
+        "ar": "planner"
+      },
+      "planning": {
+        "es": "planificación",
+        "pt-br": "planejamento",
+        "pt-pt": "planeamento",
+        "fr": "planning",
+        "de": "planning",
+        "it": "planning",
+        "ar": "planning"
+      },
+      "flow": {
+        "es": "flujo",
+        "pt-br": "fluxo",
+        "pt-pt": "fluxo",
+        "fr": "flow",
+        "de": "flow",
+        "it": "flow",
+        "ar": "flow"
+      },
+      "coherent": {
+        "es": "coherente",
+        "pt-br": "coerente",
+        "pt-pt": "coerente",
+        "fr": "coherent",
+        "de": "coherent",
+        "it": "coherent",
+        "ar": "coherent"
+      },
+      "team": {
+        "es": "equipo",
+        "pt-br": "equipe",
+        "pt-pt": "equipa",
+        "fr": "team",
+        "de": "team",
+        "it": "team",
+        "ar": "team"
+      },
+      "teams": {
+        "es": "equipos",
+        "pt-br": "equipes",
+        "pt-pt": "equipas",
+        "fr": "teams",
+        "de": "teams",
+        "it": "teams",
+        "ar": "teams"
+      },
+      "fleet": {
+        "es": "Flota",
+        "pt-br": "frota",
+        "pt-pt": "frota",
+        "fr": "flotte",
+        "de": "fleet",
+        "it": "fleet",
+        "ar": "fleet"
+      }
+    },
+    "pt-br": {
+      "viagem": {
+        "es": "expedición",
+        "en": "trip",
+        "pt-pt": "viagem",
+        "fr": "voyage",
+        "de": "trip",
+        "it": "trip",
+        "ar": "trip"
+      },
+      "escala": {
+        "es": "cuadrante",
+        "en": "roster",
+        "pt-pt": "escala",
+        "fr": "roulement",
+        "de": "roster",
+        "it": "roster",
+        "ar": "roster"
+      },
+      "rendição": {
+        "es": "relevo",
+        "en": "relief",
+        "pt-pt": "rendição",
+        "fr": "relève",
+        "de": "relief",
+        "it": "relief",
+        "ar": "relief"
+      },
+      "itinerário": {
+        "es": "itinerario",
+        "en": "itinerary",
+        "pt-pt": "itinerário",
+        "fr": "itinéraire",
+        "de": "itinerary",
+        "it": "itinerary",
+        "ar": "itinerary"
+      },
+      "linha": {
+        "es": "línea",
+        "en": "route",
+        "pt-pt": "linha",
+        "fr": "ligne",
+        "de": "route",
+        "it": "route",
+        "ar": "route"
+      },
+      "Depósito": {
+        "es": "Depósito",
+        "en": "Depot",
+        "pt-pt": "Depósito",
+        "fr": "Depôt",
+        "de": "Depot",
+        "it": "Depot",
+        "ar": "Depot"
+      },
+      "planejador": {
+        "es": "planificador",
+        "en": "planner",
+        "pt-pt": "planeador",
+        "fr": "planner",
+        "de": "planner",
+        "it": "planner",
+        "ar": "planner"
+      },
+      "planejamento": {
+        "es": "planificación",
+        "en": "planning",
+        "pt-pt": "planeamento",
+        "fr": "planning",
+        "de": "planning",
+        "it": "planning",
+        "ar": "planning"
+      },
+      "fluxo": {
+        "es": "flujo",
+        "en": "flow",
+        "pt-pt": "fluxo",
+        "fr": "flow",
+        "de": "flow",
+        "it": "flow",
+        "ar": "flow"
+      },
+      "coerente": {
+        "es": "coherente",
+        "en": "coherent",
+        "pt-pt": "coerente",
+        "fr": "coherent",
+        "de": "coherent",
+        "it": "coherent",
+        "ar": "coherent"
+      },
+      "equipe": {
+        "es": "equipo",
+        "en": "team",
+        "pt-pt": "equipa",
+        "fr": "team",
+        "de": "team",
+        "it": "team",
+        "ar": "team"
+      },
+      "equipes": {
+        "es": "equipos",
+        "en": "teams",
+        "pt-pt": "equipas",
+        "fr": "teams",
+        "de": "teams",
+        "it": "teams",
+        "ar": "teams"
+      },
+      "frota": {
+        "es": "Flota",
+        "en": "fleet",
+        "pt-pt": "frota",
+        "fr": "flotte",
+        "de": "fleet",
+        "it": "fleet",
+        "ar": "fleet"
+      }
+    },
+    "pt-pt": {
+      "viagem": {
+        "es": "expedición",
+        "en": "trip",
+        "pt-br": "viagem",
+        "fr": "voyage",
+        "de": "trip",
+        "it": "trip",
+        "ar": "trip"
+      },
+      "escala": {
+        "es": "cuadrante",
+        "en": "roster",
+        "pt-br": "escala",
+        "fr": "roulement",
+        "de": "roster",
+        "it": "roster",
+        "ar": "roster"
+      },
+      "rendição": {
+        "es": "relevo",
+        "en": "relief",
+        "pt-br": "rendição",
+        "fr": "relève",
+        "de": "relief",
+        "it": "relief",
+        "ar": "relief"
+      },
+      "itinerário": {
+        "es": "itinerario",
+        "en": "itinerary",
+        "pt-br": "itinerário",
+        "fr": "itinéraire",
+        "de": "itinerary",
+        "it": "itinerary",
+        "ar": "itinerary"
+      },
+      "linha": {
+        "es": "línea",
+        "en": "route",
+        "pt-br": "linha",
+        "fr": "ligne",
+        "de": "route",
+        "it": "route",
+        "ar": "route"
+      },
+      "Depósito": {
+        "es": "Depósito",
+        "en": "Depot",
+        "pt-br": "Depósito",
+        "fr": "Depôt",
+        "de": "Depot",
+        "it": "Depot",
+        "ar": "Depot"
+      },
+      "planeador": {
+        "es": "planificador",
+        "en": "planner",
+        "pt-br": "planejador",
+        "fr": "planner",
+        "de": "planner",
+        "it": "planner",
+        "ar": "planner"
+      },
+      "planeamento": {
+        "es": "planificación",
+        "en": "planning",
+        "pt-br": "planejamento",
+        "fr": "planning",
+        "de": "planning",
+        "it": "planning",
+        "ar": "planning"
+      },
+      "fluxo": {
+        "es": "flujo",
+        "en": "flow",
+        "pt-br": "fluxo",
+        "fr": "flow",
+        "de": "flow",
+        "it": "flow",
+        "ar": "flow"
+      },
+      "coerente": {
+        "es": "coherente",
+        "en": "coherent",
+        "pt-br": "coerente",
+        "fr": "coherent",
+        "de": "coherent",
+        "it": "coherent",
+        "ar": "coherent"
+      },
+      "equipa": {
+        "es": "equipo",
+        "en": "team",
+        "pt-br": "equipe",
+        "fr": "team",
+        "de": "team",
+        "it": "team",
+        "ar": "team"
+      },
+      "equipas": {
+        "es": "equipos",
+        "en": "teams",
+        "pt-br": "equipes",
+        "fr": "teams",
+        "de": "teams",
+        "it": "teams",
+        "ar": "teams"
+      },
+      "frota": {
+        "es": "Flota",
+        "en": "fleet",
+        "pt-br": "frota",
+        "fr": "flotte",
+        "de": "fleet",
+        "it": "fleet",
+        "ar": "fleet"
+      }
+    },
+    "fr": {
+      "voyage": {
+        "es": "expedición",
+        "en": "trip",
+        "pt-br": "viagem",
+        "pt-pt": "viagem",
+        "de": "trip",
+        "it": "trip",
+        "ar": "trip"
+      },
+      "roulement": {
+        "es": "cuadrante",
+        "en": "roster",
+        "pt-br": "escala",
+        "pt-pt": "escala",
+        "de": "roster",
+        "it": "roster",
+        "ar": "roster"
+      },
+      "relève": {
+        "es": "relevo",
+        "en": "relief",
+        "pt-br": "rendição",
+        "pt-pt": "rendição",
+        "de": "relief",
+        "it": "relief",
+        "ar": "relief"
+      },
+      "itinéraire": {
+        "es": "itinerario",
+        "en": "itinerary",
+        "pt-br": "itinerário",
+        "pt-pt": "itinerário",
+        "de": "itinerary",
+        "it": "itinerary",
+        "ar": "itinerary"
+      },
+      "ligne": {
+        "es": "línea",
+        "en": "route",
+        "pt-br": "linha",
+        "pt-pt": "linha",
+        "de": "route",
+        "it": "route",
+        "ar": "route"
+      },
+      "Depôt": {
+        "es": "Depósito",
+        "en": "Depot",
+        "pt-br": "Depósito",
+        "pt-pt": "Depósito",
+        "de": "Depot",
+        "it": "Depot",
+        "ar": "Depot"
+      },
+      "planner": {
+        "es": "planificador",
+        "en": "planner",
+        "pt-br": "planejador",
+        "pt-pt": "planeador",
+        "de": "planner",
+        "it": "planner",
+        "ar": "planner"
+      },
+      "planning": {
+        "es": "planificación",
+        "en": "planning",
+        "pt-br": "planejamento",
+        "pt-pt": "planeamento",
+        "de": "planning",
+        "it": "planning",
+        "ar": "planning"
+      },
+      "flow": {
+        "es": "flujo",
+        "en": "flow",
+        "pt-br": "fluxo",
+        "pt-pt": "fluxo",
+        "de": "flow",
+        "it": "flow",
+        "ar": "flow"
+      },
+      "coherent": {
+        "es": "coherente",
+        "en": "coherent",
+        "pt-br": "coerente",
+        "pt-pt": "coerente",
+        "de": "coherent",
+        "it": "coherent",
+        "ar": "coherent"
+      },
+      "team": {
+        "es": "equipo",
+        "en": "team",
+        "pt-br": "equipe",
+        "pt-pt": "equipa",
+        "de": "team",
+        "it": "team",
+        "ar": "team"
+      },
+      "teams": {
+        "es": "equipos",
+        "en": "teams",
+        "pt-br": "equipes",
+        "pt-pt": "equipas",
+        "de": "teams",
+        "it": "teams",
+        "ar": "teams"
+      },
+      "flotte": {
+        "es": "Flota",
+        "en": "fleet",
+        "pt-br": "frota",
+        "pt-pt": "frota",
+        "de": "fleet",
+        "it": "fleet",
+        "ar": "fleet"
+      }
+    },
+    "de": {
+      "trip": {
+        "es": "expedición",
+        "en": "trip",
+        "pt-br": "viagem",
+        "pt-pt": "viagem",
+        "fr": "voyage",
+        "it": "trip",
+        "ar": "trip"
+      },
+      "roster": {
+        "es": "cuadrante",
+        "en": "roster",
+        "pt-br": "escala",
+        "pt-pt": "escala",
+        "fr": "roulement",
+        "it": "roster",
+        "ar": "roster"
+      },
+      "relief": {
+        "es": "relevo",
+        "en": "relief",
+        "pt-br": "rendição",
+        "pt-pt": "rendição",
+        "fr": "relève",
+        "it": "relief",
+        "ar": "relief"
+      },
+      "itinerary": {
+        "es": "itinerario",
+        "en": "itinerary",
+        "pt-br": "itinerário",
+        "pt-pt": "itinerário",
+        "fr": "itinéraire",
+        "it": "itinerary",
+        "ar": "itinerary"
+      },
+      "route": {
+        "es": "línea",
+        "en": "route",
+        "pt-br": "linha",
+        "pt-pt": "linha",
+        "fr": "ligne",
+        "it": "route",
+        "ar": "route"
+      },
+      "Depot": {
+        "es": "Depósito",
+        "en": "Depot",
+        "pt-br": "Depósito",
+        "pt-pt": "Depósito",
+        "fr": "Depôt",
+        "it": "Depot",
+        "ar": "Depot"
+      },
+      "planner": {
+        "es": "planificador",
+        "en": "planner",
+        "pt-br": "planejador",
+        "pt-pt": "planeador",
+        "fr": "planner",
+        "it": "planner",
+        "ar": "planner"
+      },
+      "planning": {
+        "es": "planificación",
+        "en": "planning",
+        "pt-br": "planejamento",
+        "pt-pt": "planeamento",
+        "fr": "planning",
+        "it": "planning",
+        "ar": "planning"
+      },
+      "flow": {
+        "es": "flujo",
+        "en": "flow",
+        "pt-br": "fluxo",
+        "pt-pt": "fluxo",
+        "fr": "flow",
+        "it": "flow",
+        "ar": "flow"
+      },
+      "coherent": {
+        "es": "coherente",
+        "en": "coherent",
+        "pt-br": "coerente",
+        "pt-pt": "coerente",
+        "fr": "coherent",
+        "it": "coherent",
+        "ar": "coherent"
+      },
+      "team": {
+        "es": "equipo",
+        "en": "team",
+        "pt-br": "equipe",
+        "pt-pt": "equipa",
+        "fr": "team",
+        "it": "team",
+        "ar": "team"
+      },
+      "teams": {
+        "es": "equipos",
+        "en": "teams",
+        "pt-br": "equipes",
+        "pt-pt": "equipas",
+        "fr": "teams",
+        "it": "teams",
+        "ar": "teams"
+      },
+      "fleet": {
+        "es": "Flota",
+        "en": "fleet",
+        "pt-br": "frota",
+        "pt-pt": "frota",
+        "fr": "flotte",
+        "it": "fleet",
+        "ar": "fleet"
+      }
+    },
+    "it": {
+      "trip": {
+        "es": "expedición",
+        "en": "trip",
+        "pt-br": "viagem",
+        "pt-pt": "viagem",
+        "fr": "voyage",
+        "de": "trip",
+        "ar": "trip"
+      },
+      "roster": {
+        "es": "cuadrante",
+        "en": "roster",
+        "pt-br": "escala",
+        "pt-pt": "escala",
+        "fr": "roulement",
+        "de": "roster",
+        "ar": "roster"
+      },
+      "relief": {
+        "es": "relevo",
+        "en": "relief",
+        "pt-br": "rendição",
+        "pt-pt": "rendição",
+        "fr": "relève",
+        "de": "relief",
+        "ar": "relief"
+      },
+      "itinerary": {
+        "es": "itinerario",
+        "en": "itinerary",
+        "pt-br": "itinerário",
+        "pt-pt": "itinerário",
+        "fr": "itinéraire",
+        "de": "itinerary",
+        "ar": "itinerary"
+      },
+      "route": {
+        "es": "línea",
+        "en": "route",
+        "pt-br": "linha",
+        "pt-pt": "linha",
+        "fr": "ligne",
+        "de": "route",
+        "ar": "route"
+      },
+      "Depot": {
+        "es": "Depósito",
+        "en": "Depot",
+        "pt-br": "Depósito",
+        "pt-pt": "Depósito",
+        "fr": "Depôt",
+        "de": "Depot",
+        "ar": "Depot"
+      },
+      "planner": {
+        "es": "planificador",
+        "en": "planner",
+        "pt-br": "planejador",
+        "pt-pt": "planeador",
+        "fr": "planner",
+        "de": "planner",
+        "ar": "planner"
+      },
+      "planning": {
+        "es": "planificación",
+        "en": "planning",
+        "pt-br": "planejamento",
+        "pt-pt": "planeamento",
+        "fr": "planning",
+        "de": "planning",
+        "ar": "planning"
+      },
+      "flow": {
+        "es": "flujo",
+        "en": "flow",
+        "pt-br": "fluxo",
+        "pt-pt": "fluxo",
+        "fr": "flow",
+        "de": "flow",
+        "ar": "flow"
+      },
+      "coherent": {
+        "es": "coherente",
+        "en": "coherent",
+        "pt-br": "coerente",
+        "pt-pt": "coerente",
+        "fr": "coherent",
+        "de": "coherent",
+        "ar": "coherent"
+      },
+      "team": {
+        "es": "equipo",
+        "en": "team",
+        "pt-br": "equipe",
+        "pt-pt": "equipa",
+        "fr": "team",
+        "de": "team",
+        "ar": "team"
+      },
+      "teams": {
+        "es": "equipos",
+        "en": "teams",
+        "pt-br": "equipes",
+        "pt-pt": "equipas",
+        "fr": "teams",
+        "de": "teams",
+        "ar": "teams"
+      },
+      "fleet": {
+        "es": "Flota",
+        "en": "fleet",
+        "pt-br": "frota",
+        "pt-pt": "frota",
+        "fr": "flotte",
+        "de": "fleet",
+        "ar": "fleet"
+      }
+    },
+    "ar": {
+      "trip": {
+        "es": "expedición",
+        "en": "trip",
+        "pt-br": "viagem",
+        "pt-pt": "viagem",
+        "fr": "voyage",
+        "de": "trip",
+        "it": "trip"
+      },
+      "roster": {
+        "es": "cuadrante",
+        "en": "roster",
+        "pt-br": "escala",
+        "pt-pt": "escala",
+        "fr": "roulement",
+        "de": "roster",
+        "it": "roster"
+      },
+      "relief": {
+        "es": "relevo",
+        "en": "relief",
+        "pt-br": "rendição",
+        "pt-pt": "rendição",
+        "fr": "relève",
+        "de": "relief",
+        "it": "relief"
+      },
+      "itinerary": {
+        "es": "itinerario",
+        "en": "itinerary",
+        "pt-br": "itinerário",
+        "pt-pt": "itinerário",
+        "fr": "itinéraire",
+        "de": "itinerary",
+        "it": "itinerary"
+      },
+      "route": {
+        "es": "línea",
+        "en": "route",
+        "pt-br": "linha",
+        "pt-pt": "linha",
+        "fr": "ligne",
+        "de": "route",
+        "it": "route"
+      },
+      "Depot": {
+        "es": "Depósito",
+        "en": "Depot",
+        "pt-br": "Depósito",
+        "pt-pt": "Depósito",
+        "fr": "Depôt",
+        "de": "Depot",
+        "it": "Depot"
+      },
+      "planner": {
+        "es": "planificador",
+        "en": "planner",
+        "pt-br": "planejador",
+        "pt-pt": "planeador",
+        "fr": "planner",
+        "de": "planner",
+        "it": "planner"
+      },
+      "planning": {
+        "es": "planificación",
+        "en": "planning",
+        "pt-br": "planejamento",
+        "pt-pt": "planeamento",
+        "fr": "planning",
+        "de": "planning",
+        "it": "planning"
+      },
+      "flow": {
+        "es": "flujo",
+        "en": "flow",
+        "pt-br": "fluxo",
+        "pt-pt": "fluxo",
+        "fr": "flow",
+        "de": "flow",
+        "it": "flow"
+      },
+      "coherent": {
+        "es": "coherente",
+        "en": "coherent",
+        "pt-br": "coerente",
+        "pt-pt": "coerente",
+        "fr": "coherent",
+        "de": "coherent",
+        "it": "coherent"
+      },
+      "team": {
+        "es": "equipo",
+        "en": "team",
+        "pt-br": "equipe",
+        "pt-pt": "equipa",
+        "fr": "team",
+        "de": "team",
+        "it": "team"
+      },
+      "teams": {
+        "es": "equipos",
+        "en": "teams",
+        "pt-br": "equipes",
+        "pt-pt": "equipas",
+        "fr": "teams",
+        "de": "teams",
+        "it": "teams"
+      },
+      "fleet": {
+        "es": "Flota",
+        "en": "fleet",
+        "pt-br": "frota",
+        "pt-pt": "frota",
+        "fr": "flotte",
+        "de": "fleet",
+        "it": "fleet"
+      }
     }
   },
   "language_instructions": {
     "en": "You are an expert translator for the passenger transport domain. Translate the provided text into clear, formal, and technical English suitable for a software user manual.",
     "pt-br": "Você é um tradutor especialista no domínio de transporte de passageiros. Traduza o texto fornecido para um Português do Brasil claro, formal e técnico, adequado para um manual de usuário de software.",
     "pt-pt": "És um tradutor especialista no domínio de transporte de passageiros. Traduz o texto fornecido para um Português de Portugal claro, formal e técnico, adequado para um manual de utilizador de software.",
-    "es": "Eres un traductor experto en el dominio del transporte de pasajeros. Traduce el texto al Español neutro, formal y técnico, adecuado para un manual de software."
+    "es": "Eres un traductor experto en el dominio del transporte de pasajeros. Traduce el texto al Español neutro, formal y técnico, adecuado para un manual de software.",
+    "de": "Sie sind ein erfahrener Übersetzer für den Personenverkehr. Übersetzen Sie den Text in klares, formelles und technisches Deutsch, geeignet für ein Software-Benutzerhandbuch.",
+    "it": "Sei un traduttore esperto nel settore del trasporto passeggeri. Traduci il testo in un italiano chiaro, formale e tecnico, adatto per un manuale utente di software.",
+    "ar": "أنت مترجم خبير في مجال نقل الركاب. ترجم النص إلى لغة عربية واضحة ورسمية وتقنية مناسبة لدليل مستخدم البرنامج."
   }
 }

@@ -20,7 +20,8 @@ class AIEngine:
                 repo_id=model_repo, 
                 filename=model_filename, 
                 local_dir=self.models_dir,
-                local_dir_use_symlinks=False
+                local_dir_use_symlinks=False,
+                token=os.environ.get("HF_TOKEN")
             )
             print("Download complete.")
             return downloaded_path

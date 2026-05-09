@@ -7,3 +7,4 @@ test_docs_translated/
 .claude/
 *.gguf
 *.pyc
+.env

@@ -12,7 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'en': 'Inglés',
         'pt-br': 'Portugués (Brasil)',
         'pt-pt': 'Portugués (Portugal)',
-        'fr': 'Francés'
+        'fr': 'Francés',
+        'de': 'Alemán',
+        'it': 'Italiano',
+        'ar': 'Árabe'
     };
 
     // 1. Cargar idiomas disponibles

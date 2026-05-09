@@ -2,3 +2,4 @@ llama-cpp-python>=0.2.70
 huggingface-hub>=0.22.2
 mistune>=3.0.2
 flask>=3.0.0
+python-dotenv>=1.0.1

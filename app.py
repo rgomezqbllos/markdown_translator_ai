@@ -3,6 +3,10 @@ import os
 import json
 import subprocess
 import platform
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from core.ai_engine import AIEngine
 from core.glossary_manager import GlossaryManager
 from core.markdown_translator import MarkdownTranslator
