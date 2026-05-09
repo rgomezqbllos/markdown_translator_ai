@@ -1,0 +1,41 @@
+{
+  "app_context": {
+    "do_not_translate": [
+      "GoalBus",
+      "GoalDriver",
+      "Planning",
+      "Rostering",
+      "Dispatching",
+      "Bidding",
+      "Scheduling"
+    ]
+  },
+  "business_context": {
+    "es": {
+      "expedición": {"en": "trip", "pt-br": "viagem", "pt-pt": "viagem", "fr": "voyage"},
+      "cuadrante": {"en": "roster", "pt-br": "escala", "pt-pt": "escala", "fr": "roulement"},
+      "relevo": {"en": "relief", "pt-br": "rendição", "pt-pt": "rendição", "fr": "relève"},
+      "itinerario": {"en": "itinerary", "pt-br": "itinerário", "pt-pt": "itinerário", "fr": "itinéraire"},
+      "línea": {"en": "route", "pt-br": "linha", "pt-pt": "linha", "fr": "ligne"},
+      "Depósito": {"en": "Depot", "pt-br": "Depósito", "pt-pt": "Depósito", "fr": "Depôt"},
+      "planificador": {"en": "planner", "pt-br": "planejador", "pt-pt": "planeador"},
+      "planificación": {"en": "planning", "pt-br": "planejamento", "pt-pt": "planeamento"},
+      "flujo": {"en": "flow", "pt-br": "fluxo", "pt-pt": "fluxo"},
+      "coherente": {"en": "coherent", "pt-br": "coerente", "pt-pt": "coerente"},
+      "equipo": {"en": "team", "pt-br": "equipe", "pt-pt": "equipa"},
+      "equipos": {"en": "teams", "pt-br": "equipes", "pt-pt": "equipas"}
+    },
+    "en": {
+      "trip": {"es": "expedición", "pt-br": "viagem", "pt-pt": "viagem", "fr": "voyage"},
+      "roster": {"es": "cuadrante", "pt-br": "escala", "pt-pt": "escala", "fr": "roulement"},
+      "planner": {"es": "planificador", "pt-br": "planejador", "pt-pt": "planeador"},
+      "planning": {"es": "planificación", "pt-br": "planejamento", "pt-pt": "planeamento"}
+    }
+  },
+  "language_instructions": {
+    "en": "You are an expert translator for the passenger transport domain. Translate the provided text into clear, formal, and technical English suitable for a software user manual.",
+    "pt-br": "Você é um tradutor especialista no domínio de transporte de passageiros. Traduza o texto fornecido para um Português do Brasil claro, formal e técnico, adequado para um manual de usuário de software.",
+    "pt-pt": "És um tradutor especialista no domínio de transporte de passageiros. Traduz o texto fornecido para um Português de Portugal claro, formal e técnico, adequado para um manual de utilizador de software.",
+    "es": "Eres un traductor experto en el dominio del transporte de pasajeros. Traduce el texto al Español neutro, formal y técnico, adecuado para un manual de software."
+  }
+}

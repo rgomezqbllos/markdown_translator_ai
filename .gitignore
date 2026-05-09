@@ -1,0 +1,9 @@
+.venv/
+.venv_new/
+__pycache__/
+models/
+test_docs_translated/
+.DS_Store
+.claude/
+*.gguf
+*.pyc
