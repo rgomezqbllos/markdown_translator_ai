@@ -128,6 +128,33 @@
         "de": "fleet",
         "it": "fleet",
         "ar": "fleet"
+      },
+      "conductor": {
+        "en": "driver",
+        "pt-br": "motorista",
+        "pt-pt": "motorista",
+        "fr": "conducteur",
+        "de": "Fahrer",
+        "it": "conducente",
+        "ar": "driver"
+      },
+      "kilómetros en vacío": {
+        "en": "deadhead kilometers",
+        "pt-br": "quilômetros ociosos",
+        "pt-pt": "quilómetros em vazio",
+        "fr": "kilomètres à vide",
+        "de": "Leer-Kilometer",
+        "it": "chilometri a vuoto",
+        "ar": "deadhead kilometers"
+      },
+      "viajes en vacío": {
+        "en": "deadhead trips",
+        "pt-br": "viagens ociosas",
+        "pt-pt": "viagens em vazio",
+        "fr": "voyages à vide",
+        "de": "Leerfahrten",
+        "it": "viaggi a vuoto",
+        "ar": "deadhead trips"
       }
     },
     "en": {
@@ -247,6 +274,33 @@
         "de": "fleet",
         "it": "fleet",
         "ar": "fleet"
+      },
+      "driver": {
+        "es": "conductor",
+        "pt-br": "motorista",
+        "pt-pt": "motorista",
+        "fr": "conducteur",
+        "de": "Fahrer",
+        "it": "conducente",
+        "ar": "driver"
+      },
+      "deadhead kilometers": {
+        "es": "kilómetros en vacío",
+        "pt-br": "quilômetros ociosos",
+        "pt-pt": "quilómetros em vazio",
+        "fr": "kilomètres à vide",
+        "de": "Leer-Kilometer",
+        "it": "chilometri a vuoto",
+        "ar": "deadhead kilometers"
+      },
+      "deadhead trips": {
+        "es": "viajes en vacío",
+        "pt-br": "viagens ociosas",
+        "pt-pt": "viagens em vazio",
+        "fr": "voyages à vide",
+        "de": "Leerfahrten",
+        "it": "viaggi a vuoto",
+        "ar": "deadhead trips"
       }
     },
     "pt-br": {
@@ -366,6 +420,33 @@
         "de": "fleet",
         "it": "fleet",
         "ar": "fleet"
+      },
+      "motorista": {
+        "es": "conductor",
+        "en": "driver",
+        "pt-pt": "motorista",
+        "fr": "conducteur",
+        "de": "Fahrer",
+        "it": "conducente",
+        "ar": "driver"
+      },
+      "quilômetros ociosos": {
+        "es": "kilómetros en vacío",
+        "en": "deadhead kilometers",
+        "pt-pt": "quilómetros em vazio",
+        "fr": "kilomètres à vide",
+        "de": "Leer-Kilometer",
+        "it": "chilometri a vuoto",
+        "ar": "deadhead kilometers"
+      },
+      "viagens ociosas": {
+        "es": "viajes en vacío",
+        "en": "deadhead trips",
+        "pt-pt": "viagens em vazio",
+        "fr": "voyages à vide",
+        "de": "Leerfahrten",
+        "it": "viaggi a vuoto",
+        "ar": "deadhead trips"
       }
     },
     "pt-pt": {
@@ -966,7 +1047,7 @@
   },
   "language_instructions": {
     "en": "You are an expert translator for the passenger transport domain. Translate the provided text into clear, formal, and technical English suitable for a software user manual.",
-    "pt-br": "Você é um tradutor especialista no domínio de transporte de passageiros. Traduza o texto fornecido para um Português do Brasil claro, formal e técnico, adequado para um manual de usuário de software.",
+    "pt-br": "Você é um tradutor especialista no domínio de transporte de passageiros. Traduza o texto fornecido para um Português do Brasil claro, formal e técnico, adequado para um manual de usuário de software. EXCEÇÃO IMPORTANTE: Os termos 'Rostering' devem ser traduzidos obrigatoriamente como 'Escalas', e 'Scheduling' como 'Programação'.",
     "pt-pt": "És um tradutor especialista no domínio de transporte de passageiros. Traduz o texto fornecido para um Português de Portugal claro, formal e técnico, adequado para um manual de utilizador de software.",
     "es": "Eres un traductor experto en el dominio del transporte de pasajeros. Traduce el texto al Español neutro, formal y técnico, adecuado para un manual de software.",
     "de": "Sie sind ein erfahrener Übersetzer für den Personenverkehr. Übersetzen Sie den Text in klares, formelles und technisches Deutsch, geeignet für ein Software-Benutzerhandbuch.",

@@ -25,6 +25,11 @@ class GlossaryManager:
 
         # Contexto de la aplicación
         do_not_translate = self.glossary.get("app_context", {}).get("do_not_translate", [])
+        
+        # Excepción específica para pt-br
+        if target_lang == "pt-br":
+            do_not_translate = [term for term in do_not_translate if term not in ["Rostering", "Scheduling"]]
+
         if do_not_translate:
             dnt_str = ", ".join(do_not_translate)
             app_context = f"\nDO NOT translate these software terms: {dnt_str}."

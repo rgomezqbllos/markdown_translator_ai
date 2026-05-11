@@ -19,8 +19,13 @@ gm = GlossaryManager("glosario.json")
 stop_translation = False
 
 SUPPORTED_MODELS = {
+    "qwen2.5_7b": {
+        "name": "Qwen 2.5 (7B) - Mejor Opción Multilingüe",
+        "repo_id": "bartowski/Qwen2.5-7B-Instruct-GGUF",
+        "filename": "Qwen2.5-7B-Instruct-Q4_K_M.gguf"
+    },
     "llama3_8b": {
-        "name": "Llama 3.1 (8B) - Recomendado",
+        "name": "Llama 3.1 (8B) - Alta Calidad",
         "repo_id": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
         "filename": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
     },
@@ -29,29 +34,29 @@ SUPPORTED_MODELS = {
         "repo_id": "bartowski/gemma-2-9b-it-GGUF",
         "filename": "gemma-2-9b-it-Q4_K_M.gguf"
     },
+    "gemma_2b": {
+        "name": "Gemma 2 (2B) - Ultra Rápido",
+        "repo_id": "bartowski/gemma-2-2b-it-GGUF",
+        "filename": "gemma-2-2b-it-Q4_K_M.gguf"
+    },
+    "command_r_lite": {
+        "name": "Command R (35B - Q3) - Límite de 16GB",
+        "repo_id": "bartowski/c4ai-command-r-v01-GGUF",
+        "filename": "c4ai-command-r-v01-Q3_K_M.gguf"
+    },
     "mistral_7b": {
         "name": "Mistral v0.3 (7B)",
         "repo_id": "MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
         "filename": "Mistral-7B-Instruct-v0.3.Q4_K_M.gguf"
-    },
-    "phi3_mini": {
-        "name": "Phi-3 Mini (3.8B) - Rápido",
-        "repo_id": "microsoft/Phi-3-mini-4k-instruct-gguf",
-        "filename": "Phi-3-mini-4k-instruct-q4.gguf"
-    },
-    "command_r": {
-        "name": "Command R (35B) - Requiere 16GB+ RAM",
-        "repo_id": "pmysl/c4ai-command-r-v01-GGUF",
-        "filename": "c4ai-command-r-v01-Q4_K_M.gguf"
     }
 }
 
-def get_engine(model_id="llama3_8b"):
+def get_engine(model_id="qwen2.5_7b"):
     global engine
     if engine is None:
         engine = AIEngine()
         
-    model_info = SUPPORTED_MODELS.get(model_id, SUPPORTED_MODELS["llama3_8b"])
+    model_info = SUPPORTED_MODELS.get(model_id, SUPPORTED_MODELS["qwen2.5_7b"])
     engine.load_model(model_repo=model_info["repo_id"], model_filename=model_info["filename"])
     return engine
 
