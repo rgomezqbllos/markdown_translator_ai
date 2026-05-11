@@ -20,7 +20,7 @@ IF NOT EXIST ".venv" (
 call .venv\Scripts\activate.bat
 
 echo Instalando dependencias (si aplica)...
-pip install -q -r requirements.txt
+pip install -q -r requirements.txt --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu --prefer-binary
 
 echo Iniciando servidor de IA...
 start http://127.0.0.1:5050

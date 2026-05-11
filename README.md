@@ -75,3 +75,26 @@ Una vez iniciado, abre **[http://127.0.0.1:5050](http://127.0.0.1:5050)** en tu 
 
 ---
 *Desarrollado para la automatización de documentación técnica con IA Local.*
+
+## 🛠️ Solución de Problemas (Windows)
+
+Si encuentras errores al ejecutar el proyecto en Windows, consulta estas soluciones comunes:
+
+### 1. Error `0xc000001d` o `ILLEGAL_INSTRUCTION`
+Este error ocurre cuando tu procesador no soporta las instrucciones **AVX2** incluidas en las versiones pre-compiladas de `llama-cpp-python`.
+**Solución:**
+1. Instala [Visual Studio Build Tools](https://aka.ms/vs/17/release/vs_buildtools.exe) marcando la opción **"Desarrollo para el escritorio con C++"**.
+2. Abre una terminal (PowerShell), activa el entorno y reinstala la librería sin AVX:
+   ```powershell
+   $env:CMAKE_ARGS="-DLLAMA_AVX=OFF -DLLAMA_AVX2=OFF -DLLAMA_FMA=OFF"
+   pip install llama-cpp-python --force-reinstall --no-cache-dir
+   ```
+
+### 2. Error al instalar `llama-cpp-python` (Falta CMake/Compilador)
+Si el script `start.bat` falla al instalar dependencias, es porque `pip` intenta compilar la librería y no encuentra un compilador.
+**Solución:**
+El archivo `start.bat` ha sido actualizado para usar el repositorio de paquetes pre-compilados de `abetlen`. Si el error persiste, asegúrate de tener instalado Python 3.10 o superior y vuelve a intentar.
+
+### 3. El explorador de archivos no se abre
+Se ha actualizado el motor de selección de carpetas en Windows para usar `tkinter`. Esto garantiza que la ventana de selección aparezca siempre en primer plano por encima del navegador. Si por alguna razón no aparece, revisa que no haya quedado minimizada en la barra de tareas.
+

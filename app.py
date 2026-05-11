@@ -95,9 +95,8 @@ def browse_folder():
             result = subprocess.run(cmd, capture_output=True, text=True)
             folder = result.stdout.strip()
         elif system == "Windows":
-            # PowerShell folder picker
-            ps_script = "Add-Type -AssemblyName System.windows.forms; $f=New-Object System.Windows.Forms.FolderBrowserDialog; $f.ShowNewFolderButton=$true; if($f.ShowDialog() -eq 'OK'){$f.SelectedPath}"
-            cmd = ['powershell', '-Command', ps_script]
+            # Usar tkinter para el diálogo de selección en Windows (más estable que PowerShell)
+            cmd = ['python', '-c', "import tkinter as tk, tkinter.filedialog as fd; root=tk.Tk(); root.attributes('-topmost', True); root.withdraw(); print(fd.askdirectory())"]
             result = subprocess.run(cmd, capture_output=True, text=True)
             folder = result.stdout.strip()
         elif system == "Linux":
